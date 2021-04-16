@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// import MyFirstComponent from './Components/01-intro/MyFirstComponent'
+import MySecondComponent from './Components/01-intro/MySecondComponent'
+import MyFooter from './Components/02-Parent-Child/MyFooter'
+import Standard from './Components/02-Parent-Child/Standard'
+import Parent from './Components/03-Props/01-Simple/Parent'
+import PropWithDifferentTypes from './Components/03-Props/02-intermediate/PropWithDifferentTypes'
 
-function App() {
+const App=()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MyFirstComponent/> */}
+      {/* <MySecondComponent/> */}
+      {/* <Standard/> */}
+      {/* <MyFooter/> */}
+      {/* <Parent/> */}
+      <PropWithDifferentTypes/>
     </div>
   );
 }
 
+//ONLY ONE DEFAULT EXPORT PER FILE
 export default App;
