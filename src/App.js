@@ -4,6 +4,8 @@ import MyFooter from './Components/02-Parent-Child/MyFooter'
 import Standard from './Components/02-Parent-Child/Standard'
 import Parent from './Components/03-Props/01-Simple/Parent'
 import PropWithDifferentTypes from './Components/03-Props/02-intermediate/PropWithDifferentTypes'
+import EndContactCard from './Components/03-Props/03-Contact-Card/EndContactCard '
+import FirstContactCard from './Components/03-Props/03-Contact-Card/WIPFirstContactCard'
 
 const App=()=> {
   return (
@@ -13,7 +15,9 @@ const App=()=> {
       {/* <Standard/> */}
       {/* <MyFooter/> */}
       {/* <Parent/> */}
-      <PropWithDifferentTypes/>
+      {/* <PropWithDifferentTypes/> */}
+      {/* <FirstContactCard/> */}
+      <EndContactCard/>
     </div>
   );
 }

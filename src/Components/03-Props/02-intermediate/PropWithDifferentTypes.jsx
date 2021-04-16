@@ -9,14 +9,14 @@ const PropWithDifferentTypes =()=>{
     const str ="Hello";
 
     const myCar={
-        brand:"Audi",
-        model:"A5",
+        brand:"BMW",
+        model:"M5",
         reg:"W8M8",
         engineSizeInLt:3,
         interior:["sunroof",4,"heated seats", "applePlay"]
     }
 
-    const carBrands = ["Audi","BMW","Merc","Ferrari", "Honda", "Mini","Ford"]
+    const carBrands = ["Audi","BMW","Merc","Ferrari", "Honda", "Mini","Ford","Dacia"]
     const someFunction= ()=> (`this is from the function we made!`);
 
     return(
