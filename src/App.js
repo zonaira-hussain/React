@@ -9,6 +9,7 @@ import FirstContactCard from './Components/03-Props/03-Contact-Card/WIPFirstCont
 import Blog from './Components/03-Props/Static-data/CommentData/Blog'
 import User from './Components/03-Props/Static-data/PeopleData/User'
 import Strap from './Components/03-Props/Strap'
+import ClassClock from './Components/04-Lifecycle/ClassClock'
 
 const App=()=> {
   return (
@@ -23,7 +24,8 @@ const App=()=> {
       {/* <EndContactCard/> */}
       {/* <Blog/> */}
       {/* <User/> */}
-      <Strap/>
+      {/* <Strap/> */}
+      <ClassClock/>
     </div>
   );
 }

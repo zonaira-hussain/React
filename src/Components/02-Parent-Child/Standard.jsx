@@ -1,4 +1,3 @@
-'use strict'
 
 import MyFooter from "./MyFooter"
 import MyHeader from "./MyHeader"

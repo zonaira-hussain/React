@@ -1,4 +1,4 @@
-'use strict'
+
 
 import EndContactContactCardBluePrint from "./EndContactCardBluePrint"
 
