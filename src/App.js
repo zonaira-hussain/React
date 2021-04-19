@@ -6,6 +6,9 @@ import Parent from './Components/03-Props/01-Simple/Parent'
 import PropWithDifferentTypes from './Components/03-Props/02-intermediate/PropWithDifferentTypes'
 import EndContactCard from './Components/03-Props/03-Contact-Card/EndContactCard '
 import FirstContactCard from './Components/03-Props/03-Contact-Card/WIPFirstContactCard'
+import Blog from './Components/03-Props/Static-data/CommentData/Blog'
+import User from './Components/03-Props/Static-data/PeopleData/User'
+import Strap from './Components/03-Props/Strap'
 
 const App=()=> {
   return (
@@ -17,7 +20,10 @@ const App=()=> {
       {/* <Parent/> */}
       {/* <PropWithDifferentTypes/> */}
       {/* <FirstContactCard/> */}
-      <EndContactCard/>
+      {/* <EndContactCard/> */}
+      {/* <Blog/> */}
+      {/* <User/> */}
+      <Strap/>
     </div>
   );
 }
