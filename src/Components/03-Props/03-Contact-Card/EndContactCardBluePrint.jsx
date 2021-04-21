@@ -10,7 +10,7 @@ const EndContactContactCardBluePrint =(props)=>{
             <div className="contact-card">
               <h2>{props.whatPet}</h2>
               <img src={img} alt="this is a of a dog"/>  
-              <h3>The pet name is {petName}</h3>
+              <h3>{petName}</h3>
               <p>Phone: {phone}</p>
               <p>Email:{email}</p>
             </div>

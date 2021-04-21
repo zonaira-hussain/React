@@ -11,15 +11,23 @@ import User from './Components/03-Props/Static-data/PeopleData/User'
 import Strap from './Components/03-Props/Strap'
 import ClassClock from './Components/04-Lifecycle/ClassClock'
 import ClockFunctional from './Components/04-Lifecycle/ClockFunctional'
-import Counter from './Components/05-States/AddingState/Counter'
+// import Counter from './Components/05-States/AddingState/Counter'
 import DifferentStates from './Components/05-States/DifferentStates'
-import LetsSearch from './Components/05-States/Tasks/LetsSearch'
+import LetsSearch from './Components/05-States/Tasks/01/LetsSearch'
+import HomePage from './Components/05-States/Tasks/02/HomePage'
 import ControlledInput from './Components/06-Forms/ControlledInput'
 import UncontrolledInput from './Components/06-Forms/UncontrolledInput'
+// import SearchableList from './Components/07-LiftingStates/01-Search/SearchableList'
+import SearchableList from './Components/07-LiftingStates/02-Checked/SearchableList'
+import Clock from './Components/08-Hooks/Clock'
+import Counter from './Components/08-Hooks/Counter'
+import Director from './Components/09-Routing/Director'
+import Tesco from './Components/10-Data-Requests/Tesco'
 
 const App=()=> {
   return (
     <div className="App">
+      <h1>React - CNE 2021</h1>
       {/* <MyFirstComponent/> */}
       {/* <MySecondComponent/> */}
       {/* <Standard/> */}
@@ -37,7 +45,16 @@ const App=()=> {
       {/* <Counter/> */}
       {/* <UncontrolledInput/> */}
       {/* <ControlledInput/> */}
-      <LetsSearch/>
+      {/* <LetsSearch/> */}
+      {/* <HomePage/> */}
+      {/* <SearchableList/> */}
+      {/* <Clock/>
+      <Counter/> */}
+      {/* <Director/> */}
+
+      <Tesco/>
+
+
     </div>
   );
 }

@@ -1,33 +1,33 @@
 
 
-import EndContactContactCardBluePrint from "./EndContactCardBluePrint"
+import EndContactCardBluePrint from "./EndContactCardBluePrint"
 
 const EndContactCard =()=>{
     return (
         <div className="Contact-card-list">
-          <EndContactContactCardBluePrint
+          <EndContactCardBluePrint
             whatPet="This is a dog"
             petName="Harry Pawter"
-            // phone="(+44)77777777"
-            email=" jimmy@chew.pup"
+            phone="(+44)77777777"
+            email="jimmy@chew.pup"
             img="https://placedog.net/samples/2.jpg"
           />
-          <EndContactContactCardBluePrint
+          <EndContactCardBluePrint
             petName="jimmy chew"
             phone="(+44)77777777"
-            email=" jimmy@chew.pup"
+            email="jimmy@chew.pup"
             img="https://placedog.net/samples/5.jpg"
           />
-          <EndContactContactCardBluePrint
+          <EndContactCardBluePrint
             petName="Bark Wahlberg"
             phone="(+44)77777777"
-            email=" BarkWahlberg@chew.pup"
+            email="BarkWahlberg@chew.pup"
             img="https://placedog.net/samples/15.jpg"
           />
-          <EndContactContactCardBluePrint
+          <EndContactCardBluePrint
             petName="Indiana Bones"
             phone="(+44)77777777"
-            email=" IndianaBones@chew.pup"
+            email="IndianaBones@chew.pup"
             img="https://placedog.net/samples/5.jpg"
           />
         </div>

@@ -15,7 +15,8 @@ const LetsSearch =()=>{
     }
 
     console.log("The search q is",searchQ);
-    const result = ProductList.filter(item => item.name.includes(searchQ.toLowerCase()));
+    // const result = ProductList.filter(item => item.name.includes(searchQ.toLowerCase()));
+    const result = ProductList.filter(item => item.type === searchQ.toLowerCase());
     console.log(result);
 return(
     <>
